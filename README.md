@@ -1,2 +1,3 @@
-# Algorithms-Design-Analysis
+# Algorithmic Problem Solving
+
 Collection of LeetCode questions!
