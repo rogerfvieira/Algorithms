@@ -12,7 +12,7 @@ class Solution:
                     secondary_diagonal.append(y)
                 elif row==column:
                     secondary_diagonal.append(y)
-        
+     
         if len(secondary_diagonal)%2!=0:
             del secondary_diagonal[len(secondary_diagonal)//2]
         
