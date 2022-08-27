@@ -1,7 +1,7 @@
 class Solution:
     def sumBase(self, n: int, k: int) -> int:
-        arr = []
+        result = 0
         while n!=0:
-            arr.append(n%k)
+            result+=n%k
             n=n//k
-        return sum(arr)
+        return result
