@@ -3,6 +3,5 @@ class Solution:
         arr = [index for index, element in enumerate(nums) if index%10 == nums[index]]
         if arr:
             return min(arr)
-        else:
-            return -1
+        return -1
    
