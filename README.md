@@ -1,2 +1,2 @@
 # Algorithmic Problem Solving
-Solving Python and SQL leetcode problems.
+Python and SQL leetcode solutions.
