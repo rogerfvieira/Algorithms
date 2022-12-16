@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT Sales.user_id, SUM(quantity * Product.price) AS spending
 FROM sales
 INNER JOIN Product
