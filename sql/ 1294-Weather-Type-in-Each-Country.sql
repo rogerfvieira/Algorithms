@@ -1,5 +1,3 @@
-# Write your MySQL query statement below
-
 SELECT country_name,
        CASE 
          WHEN AVG(weather.weather_state) <=15 THEN 'Cold'

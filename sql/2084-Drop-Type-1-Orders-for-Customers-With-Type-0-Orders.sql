@@ -1,4 +1,3 @@
-
 SELECT *
 FROM Orders
 WHERE (Orders.customer_id IN (SELECT customer_id 
