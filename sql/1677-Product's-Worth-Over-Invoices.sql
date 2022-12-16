@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT name,
        IFNULL(SUM(rest),0) AS rest,
        IFNULL(SUM(paid),0) AS paid,

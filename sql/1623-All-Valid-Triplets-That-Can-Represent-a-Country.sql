@@ -1,5 +1,3 @@
-# Write your MySQL query statement below
-
 SELECT 
     SchoolA.student_name AS member_A,
     SchoolB.student_name AS member_B,

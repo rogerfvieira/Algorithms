@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT Queries.id,
        Queries.year,
        IFNULL(npv, 0) AS npv

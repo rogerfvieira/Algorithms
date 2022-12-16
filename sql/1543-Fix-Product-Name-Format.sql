@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT LOWER(TRIM(product_name)) AS product_name,
        DATE_FORMAT(sale_date,'%Y-%m') AS sale_date,
        COUNT(MONTH(sale_date)) AS total

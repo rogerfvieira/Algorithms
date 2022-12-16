@@ -1,5 +1,3 @@
-# Write your MySQL query statement below
-
 SELECT Users.name AS NAME , sum(amount) AS BALANCE
 FROM Transactions
 INNER JOIN Users

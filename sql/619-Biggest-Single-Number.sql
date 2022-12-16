@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT max(num) as num
 FROM(
     SELECT num

@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 WITH apples AS(
 SELECT sale_date, sold_num AS 'sales'
 FROM Sales
