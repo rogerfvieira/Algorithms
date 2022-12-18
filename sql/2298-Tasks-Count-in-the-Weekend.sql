@@ -1,0 +1,2 @@
+SELECT (SELECT COUNT(*) FROM Tasks WHERE DATE_FORMAT(submit_date, '%a') = 'Sat' OR DATE_FORMAT(submit_date, '%a') = 'Sun') AS weekend_cnt,
+       (SELECT COUNT(*) FROM Tasks WHERE DATE_FORMAT(submit_date, '%a') != 'Sat' AND DATE_FORMAT(submit_date, '%a') != 'Sun') AS working_cnt
