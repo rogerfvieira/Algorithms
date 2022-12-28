@@ -1,0 +1,1 @@
+SELECT LTRIM(first_name) FROM worker;
