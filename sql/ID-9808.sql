@@ -1,0 +1,1 @@
+SELECT DISTINCT(business_type) FROM google_adwords_earnings;
