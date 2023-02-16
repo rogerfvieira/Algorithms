@@ -1,0 +1,1 @@
+SELECT (SELECT COUNT(*) FROM facebook_products WHERE is_low_fat = "Y" AND is_recyclable = "Y") / (SELECT COUNT(*) FROM facebook_products) * 100 AS percentage
