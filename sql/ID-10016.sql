@@ -1,0 +1,1 @@
+SELECT (SELECT COUNT(*) FROM lyft_drivers WHERE end_date IS NOT NULL)/(SELECT COUNT(*) FROM lyft_drivers) AS global_churn_rate
